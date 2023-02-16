@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+    background-color: cadetblue;
+    padding: 5px;
+    }
+    
+    .grid-container > div{
+        background-color: black;
+        text-align: center;
+        padding: 20px 0;
+        font-size: small;
+    }
+
+img {
+    width: 350px;
+    height:250px
+}
+
+
+
+#todoItem, form {
+    margin: 50px;
+    max-width: 300px;
+}
+
+
+.complete {
+    text-decoration: line-through;
+}
+
+#todo-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: aquamarine;
+}
+
